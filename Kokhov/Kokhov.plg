@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Kokhov - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/Kokhov.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Lenovo\Desktop\Kokhov\Kokhov.rc"" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP80F6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Kokhov.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\Lenovo\Desktop\Kokhov\Kokhov.cpp"
+"C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp"
+"C:\Users\Lenovo\Desktop\Kokhov\rowcursor.cpp"
+"C:\Users\Lenovo\Desktop\Kokhov\msflexgrid.cpp"
+"C:\Users\Lenovo\Desktop\Kokhov\font.cpp"
+"C:\Users\Lenovo\Desktop\Kokhov\picture.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP80F6.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP80F7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Kokhov.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\Lenovo\Desktop\Kokhov\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP80F7.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSP80F8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Kokhov.pdb" /debug /machine:I386 /out:"Debug/Kokhov.exe" /pdbtype:sept 
+.\Debug\Kokhov.obj
+.\Debug\KokhovDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Kokhov.res
+.\Debug\rowcursor.obj
+.\Debug\msflexgrid.obj
+.\Debug\font.obj
+.\Debug\picture.obj
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSP80F8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Kokhov.cpp
+KokhovDlg.cpp
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(247) : warning C4244: 'argument' : conversion from 'short' to 'char', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(342) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(412) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(415) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(432) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(439) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(439) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Lenovo\Desktop\Kokhov\KokhovDlg.cpp(447) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+rowcursor.cpp
+msflexgrid.cpp
+font.cpp
+picture.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Kokhov.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
